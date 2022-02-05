@@ -1,0 +1,352 @@
+ *{
+    padding: 0;
+    margin:0;
+    outline: 0;
+}
+.template{
+    width: 1260px;
+    margin: 0 auto;
+}
+.clear{
+    overflow: hidden;
+}
+/* logo part start */
+.logo {
+    float: left;
+    width: 170px;
+    background-color: #FFFFFF;
+}
+.logo img {
+    height: 59px;
+    width: 100px;
+    margin: 0px 35px;
+}
+/* logo part end */
+/*  nav part start */
+.nav{
+    width: 1090px;
+    height: 63px;
+    background-color: #FFFFFF;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+.nav ul li{
+    display: block;
+    float: left;
+}
+.nav ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 12px;
+    margin-top: 21px;
+    padding: 5 30px;
+    color: black;
+}
+.nav ul li a:hover{
+    color:blue;
+}
+/*  nav part start */
+#gsearch{
+    margin: 10px;
+    padding: 10px ;
+    padding-right: 550px;
+}
+
+.container{
+    
+}
+/*  2nd strip start */
+.left{
+    background-color: #FFFFFF;
+   
+    float: left;
+    width: 400px;
+}
+.left h1 {
+    margin: 10px;
+    font-size: 42px;
+    margin-top: 85px;
+    color: #25265E;
+    margin-bottom: 60px;
+}
+.left p {
+    margin: 10px;
+    text-align: justify;
+    font-size: 20px;
+    color: #202124;
+    margin-bottom: 50px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    border-radius: 3px;
+    margin-left: 10px;
+    background: #f1f1f1;
+}
+  form.example button {
+    float: left;
+    width: 95px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #212ECE;
+    border-left: none;
+    cursor: pointer;
+    margin-bottom: 90px;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+.right{
+    background-color: #FFFFFF;   
+}
+.right img {
+    height: 430px;
+    width: 540px;
+    margin: 35px;
+    margin-bottom: 47px;
+    margin-top: 84px;
+}
+
+/*  2nd strip end */
+
+/*  third strip start */
+.three{
+    background-color: #FFFFFF;
+ 
+}
+.content{
+    float: left;
+}
+.content h2 {
+    font-size: 25px;
+    margin-left: 36px;
+    margin-top: 36px;
+    margin-bottom: 27px;
+}
+.content p {
+    margin-left: 35px;
+}
+.card {
+    box-shadow: 0 5px 9px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 15%;
+    height: 209px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 43px;
+    float: left;
+}
+.card img {
+    margin-top: 21px;
+    margin-bottom: 30px;
+    margin-left: 6px;
+}
+.container h4 {
+    color: #25265E;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.container p{
+
+} 
+.card:hover {
+    box-shadow: 0 9px 16px 0 #868383;
+
+}
+  
+.container {
+    padding: 0px 16px;
+}
+#last {
+    margin-top: 63px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+#lastP{
+    margin-left: 10px;
+}
+
+/*  third strip end */
+
+/*  four strip start */
+.four {
+    margin-bottom: 40px;
+}
+.left_02 {
+    float: left;
+    width: 750px;
+    height: 500px;
+    
+    
+}
+.right_02 {
+    float: left;
+    width: 510px;
+    height: 500px;
+   
+}
+.right_02 h1 {
+    margin-top: 120px;
+    font-size: 32px;
+    color: #25265E;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+.right_02 p {
+    font-size: 20px;
+    color: #A6A8A8;
+    margin-bottom: 34px;
+}
+#button {
+    color: white;
+    font-size: 17px;
+    padding: 10px 38px;
+    font-family: arial;
+    border-radius: 7px;
+    background-color: blue;
+}
+#button:hover{
+    background-color: rgb(5, 5, 172);
+
+}
+/*  four strip end */
+
+/*  five strip start */
+.five{
+    height: 500px;
+    
+}
+.fristPart{
+    height: 500px;
+    background-color: #FFFFFF;
+    width: 420px;
+    float: left;
+
+}
+.fristPart h4 {
+    margin-left: 75px;
+    font-size: 23px;
+    color: #25265E;
+    padding: 5px;
+    margin-top: 185px;
+    margin-bottom: 15px;
+}
+#partFiveP {
+    text-align: justify;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #25265E;
+}
+
+.middlePart{
+    height: 500px;
+    background-color:#FFFFFF;
+    width: 420px;
+    float: left;
+}
+.middlePart h2 {
+    font-size: 37px;
+    margin: 10px;
+    text-align: center;
+    color: #25265E;
+}
+.middlePart h4 {
+    margin: 10px;
+    margin-left: 80px;
+    font-size: 23px;
+    color: #41265E;
+    margin-bottom: 21px;
+    margin-top: 135px;
+}
+.middlePart p {
+    text-align: justify;
+    margin-left: 80px;
+    font-size: 18px;
+    margin-right: 48px;
+    color: #25265E;
+}
+
+.lastPart{
+    height: 500px;
+    background-color: #FFFFFF;
+    width: 420px;
+    float: left;
+}
+.lastPart h4 {
+    margin-left: 75px;
+    font-size: 23px;
+    color: #25265E;
+    padding: 5px;
+    margin-top: 185px;
+    margin-bottom: 15px;
+}
+#lastFiveP{
+    text-align: justify;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #25265E;
+}
+
+/*  five strip end */
+.six-part{
+    background-image: url(anirban.jpg);background-position-x: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    padding-right: 230px;
+}
+.header-part{
+    font-size: 25px;
+    line-height: 40px;
+    padding-left:120px ;
+    
+}
+.hedar-part4{
+    width: 400px;
+    font-size: 28px;
+    padding-left: 120px;
+    line-height: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.hedar-part4 p{
+    width: 370px;
+    font-size: 25px;
+    
+}
+
+   
+}
+.boxer-part{
+    padding-left: 300px;
+
+    
+
+    
+}  
+.footar-ha{
+    width: 100%;
+    background-color: black;
+} 
+.col-md-2{
+   margin-top: 50px;
+   color: #fff;
+}
+.col-md-4{
+    color: #fff;  
+}
+.example{
+    margin-top: 50px;
+}
+.copyright{
+    background-color: black;
+    color: #fff
+}
